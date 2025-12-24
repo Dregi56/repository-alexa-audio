@@ -1,5 +1,5 @@
 build_from:
-  amd64: ghcr.io/home-assistant/amd64-base:3.19
-  armhf: ghcr.io/home-assistant/armhf-base:3.19
-  armv7: ghcr.io/home-assistant/armv7-base:3.19
-  aarch64: ghcr.io/home-assistant/aarch64-base:3.19
+  aarch64: "lmscommunity/logitechmediaserver:latest"
+  amd64: "lmscommunity/logitechmediaserver:latest"
+  armv7: "lmscommunity/logitechmediaserver:latest"
+  armhf: "lmscommunity/logitechmediaserver:latest"
