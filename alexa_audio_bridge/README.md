@@ -15,7 +15,7 @@ Questo add-on permette di trasformare i tuoi dispositivi **Amazon Alexa** in pla
 4. Incolla l'URL e clicca su **Aggiungi**.
 5. Cerca "Alexa Audio Bridge" nella lista, cliccaci sopra e premi **Installa**.
 
-## ⚙️ Configurazione Iniziale (Il "Calvario")
+## ⚙️ Configurazione Iniziale
 
 Una volta avviato l'add-on, segui questi passaggi cruciali:
 
