@@ -2,14 +2,10 @@
 
 bashio::log.info "Avvio di Alexa Audio Bridge (LMS)..."
 
-# Definiamo dove si trovano i file musicali in Home Assistant
-MUSIC_DIR="/media"
-
-# Avviamo il processo di Logitech Media Server
-# Usiamo i percorsi standard dell'immagine lmscommunity
+# Avviamo il server usando i percorsi predefiniti dell'immagine base
 exec /usr/sbin/squeezeboxserver \
   --cachedir /config/cache \
   --prefsdir /config/prefs \
   --logdir /config/logs \
-  --mediadir $MUSIC_DIR \
+  --mediadir /media \
   --noexit
