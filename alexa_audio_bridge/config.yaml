@@ -4,7 +4,8 @@ version: "1.0.0"
 slug: "alexa_audio_bridge"
 url: "https://github.com/Dregi56/repository-alexa-audio"
 author: "Egidio Ziggiotto"
-maintainer: "Egidio Ziggiotto <dregi@cyberservices.com>"startup: "services"
+maintainer: "Egidio Ziggiotto <dregi@cyberservices.com>"
+startup: "services"
 boot: "manual"
 init: false
 arch:
