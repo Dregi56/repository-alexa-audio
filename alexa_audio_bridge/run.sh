@@ -1,11 +1,17 @@
 #!/usr/bin/with-contenv bashio
 
-bashio::log.info "Avvio di Alexa Audio Bridge (LMS)..."
+echo "Avvio di Alexa Audio Bridge (Logitech Media Server)..."
 
-# Avviamo il server usando i percorsi predefiniti dell'immagine base
+# Assicuriamoci che la cartella config esista per le preferenze di LMS
+mkdir -p /config/prefs
+mkdir -p /config/logs
+mkdir -p /config/cache
+
+# Lancio del server LMS. 
+# Usiamo 'exec' così LMS diventa il processo principale del container.
 exec /usr/sbin/squeezeboxserver \
-  --cachedir /config/cache \
-  --prefsdir /config/prefs \
-  --logdir /config/logs \
-  --mediadir /media \
-  --noexit
+    --user squeezeboxserver \
+    --prefsdir /config/prefs \
+    --logdir /config/logs \
+    --cachedir /config/cache \
+    --no-cleanup
