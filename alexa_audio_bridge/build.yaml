@@ -1,0 +1,4 @@
+build_from:
+  aarch64: "lmscommunity/logitechmediaserver:latest"
+  amd64: "lmscommunity/logitechmediaserver:latest"
+  armv7: "lmscommunity/logitechmediaserver:latest"
