@@ -1,4 +1,4 @@
-#!/usr/bin/with-conten-env bashio
+#!/usr/bin/with-contenv bashio
 
 bashio::log.info "Avvio di Alexa Audio Bridge (LMS)..."
 
