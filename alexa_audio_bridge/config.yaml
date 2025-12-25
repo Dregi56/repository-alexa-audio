@@ -6,6 +6,9 @@ url: "https://github.com/Dregi56/repository-alexa-audio"
 author: "Egidio Ziggiotto"
 maintainer: "Egidio Ziggiotto <dregi@cyberservices.com>"
 startup: services
+arch:
+  - amd64
+  - aarch64
 boot: auto
 init: false
 host_network: true
