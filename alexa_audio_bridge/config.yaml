@@ -3,14 +3,13 @@ description: "Streaming audio locale per Alexa tramite LMS (Lyrion)"
 version: "1.0.3"
 slug: "alexa_audio_bridge"
 url: "https://github.com/Dregi56/repository-alexa-audio"
-author: "Egidio Ziggiotto"
-maintainer: "Egidio Ziggiotto <dregi@cyberservices.com>"
 startup: services
+boot: auto
+init: false
 arch:
   - amd64
   - aarch64
-boot: auto
-init: false
+  - armv7
 host_network: true
 map:
   - config:rw
@@ -18,4 +17,5 @@ map:
 options:
   log_level: info
 schema:
-  log_level: str
+  log_level: list(trace|debug|info|warning|error|critical)
+
