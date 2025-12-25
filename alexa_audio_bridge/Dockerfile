@@ -1,7 +1,5 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-COPY run.sh /run.sh
-RUN chmod +x /run.sh
-
-ENTRYPOINT ["/run.sh"]
+# Non serve altro se usi l'immagine lmscommunity, 
+# perché ha già tutto l'ambiente configurato.
