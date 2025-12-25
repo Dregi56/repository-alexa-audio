@@ -1,8 +1,7 @@
-FROM lmscommunity/logitechmediaserver:latest
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
-# Copia lo script
-COPY run.sh /
-RUN chmod a+x /run.sh
+COPY run.sh /run.sh
+RUN chmod +x /run.sh
 
-# Avvia lo script
-CMD [ "/run.sh" ]
+ENTRYPOINT ["/run.sh"]
