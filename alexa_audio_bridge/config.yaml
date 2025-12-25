@@ -1,6 +1,6 @@
 name: "Alexa Audio Bridge"
 description: "Streaming audio locale per Alexa tramite LMS (Lyrion)"
-version: "1.0.2"
+version: "1.0.3"
 slug: "alexa_audio_bridge"
 url: "https://github.com/Dregi56/repository-alexa-audio"
 author: "Egidio Ziggiotto"
