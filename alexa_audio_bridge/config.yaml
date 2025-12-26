@@ -13,7 +13,6 @@ init: false
 arch:
   - amd64
   - aarch64
-  - armv7
 
 host_network: true
 
