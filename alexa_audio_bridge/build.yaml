@@ -1,0 +1,3 @@
+build_from:
+  amd64: "lmscommunity/logitechmediaserver:latest"
+  aarch64: "lmscommunity/logitechmediaserver:latest"
