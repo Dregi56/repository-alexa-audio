@@ -1,14 +1,15 @@
 name: "Alexa Audio Bridge"
-description: "LMS per streaming locale"
-version: "1.1.0"
+description: "Streaming audio locale per Alexa tramite LMS (Lyrion)"
+version: "1.2.5"
 slug: "alexa_audio_bridge"
 url: "https://github.com/Dregi56/repository-alexa-audio"
 image: "lmscommunity/logitechmediaserver"
+startup: services
+boot: auto
 arch:
   - amd64
   - aarch64
-startup: services
-boot: auto
+  - armv7
 host_network: true
 
 
