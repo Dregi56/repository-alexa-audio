@@ -19,5 +19,6 @@ host_network: true
 map:
   - config:rw
   - media:ro
-
+host_network: true
+image: "lmscommunity/logitechmediaserver:latest"
 
