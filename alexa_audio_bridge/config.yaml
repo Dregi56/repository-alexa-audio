@@ -4,7 +4,8 @@ version: "latest"
 slug: "alexa_audio_bridge"
 url: "https://github.com/Dregi56/repository-alexa-audio"
 
-image: "lmscommunity/logitechmediaserver"
+image: "lmscommunity/logitechmediaserver:latest"
+host_network: true
 
 startup: services
 boot: auto
@@ -19,6 +20,5 @@ host_network: true
 map:
   - config:rw
   - media:ro
-host_network: true
-image: "lmscommunity/logitechmediaserver:latest"
+
 
