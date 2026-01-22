@@ -1,0 +1,5 @@
+Caratteristiche necessarie perchè il file mp3 venga letto da Alexa:
+1) Traccia mono (non stereo)
+2) Campionamento 22050
+3) Modalità bit-rate: Costante
+4) Qualità 48 Kbps
