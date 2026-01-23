@@ -3,3 +3,19 @@ Caratteristiche necessarie perchè il file mp3 venga letto da Alexa:
 2) Campionamento 22050
 3) Modalità bit-rate: Costante
 4) Qualità 48 Kbps
+
+
+Link per raggiungere il suono su git-hub:
+'https://raw.githubusercontent.com/Dregi56/repository-alexa-audio/main/sounds/gallo.mp3'
+
+Esempio di script:
+galloplay:
+  alias: "Canto gallo"
+  sequence:
+    - service: notify.alexa_media_echo_dot_ceruleo
+      data:
+        message: "<audio src='https://raw.githubusercontent.com/Dregi56/repository-alexa-audio/main/sounds/gallo.mp3'/>"
+        data:
+          type: tts
+  icon: mdi:bell-ring
+  mode: single
